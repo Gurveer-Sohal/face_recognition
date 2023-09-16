@@ -35,7 +35,9 @@ class Login extends React.Component {
         .then(user => {
             if (typeof user === 'object') {
                 this.props.loadUser(user);
+                this.props.resetUrl();
                 this.props.login();
+
             }
         })
     }

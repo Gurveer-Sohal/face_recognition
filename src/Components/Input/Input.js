@@ -40,11 +40,9 @@ class Input extends React.Component {
                 <button className='Submit' onClick={() => {onSubmit(); this.getImageCount()}}>Submit</button>
                 </div>
                 <div className='image-container' >
-                    <div className='image-container2'>
-                        <img id='inputimage' className='Img' src={url} alt="" />
-                        <div className='bounding-box' style={{left: box.leftCol , top: box.topRow, right: box.rightCol, bottom: box.bottomRow}}></div>
-                    </div>
-                   
+                    <img id='inputimage' className='Img' src={url} alt="" />
+                    <div className='bounding-box' style={{left: box.leftCol , top: box.topRow, right: box.rightCol, bottom: box.bottomRow}}></div>
+                
                 </div>
             </div>
         );

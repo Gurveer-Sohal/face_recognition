@@ -23,21 +23,16 @@
 }
 .Submit:hover {
     cursor: pointer;
-
+    filter: brightness(1.05);
 }
 .image-container {
     display: flex;
-    position: relative;
-    width: 100%;
+    position: absolute;
     justify-content: center;
-    border: 2px solid red;
 
 }
 
-.image-container2 {
-    border: 5px solid black;
-    justify-self: center;
-}
+
 img {
     width: 400px;
     height: auto;
@@ -46,7 +41,7 @@ img {
 }
 .bounding-box {
     position: absolute;
-    box-shadow: 0 0 0 3px blue inset;
+    box-shadow: 0 0 0 3px rgb(107, 13, 195) inset;
 }
 
 .welcome {
