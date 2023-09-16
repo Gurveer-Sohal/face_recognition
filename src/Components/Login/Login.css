@@ -1,0 +1,92 @@
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    border-radius:20px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgb(56,95,116);
+    background: linear-gradient(180deg, rgba(56,95,116,1) 30%, rgba(5,199,238,1) 100%);
+}
+.loginContainer h2 {
+    align-self: center;
+    color: white;
+}
+
+.centerAligned {
+    outline: none;
+    width: 80%;
+    align-self: center;
+    border-radius: 0.5px solid black ;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+
+.loginContainer label {
+    margin-left: 35px;
+    color: white;
+}
+
+.btnLogin {
+    height: 45px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.1em;
+}
+.btnLogin:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.loginContainer div p {
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+
+}
+.loginContainer div p:hover {
+    text-decoration: underline white;
+    text-underline-offset: 4px;
+}
+
+.signup {
+    color: blue;
+    text-decoration: underline blue;
+    text-underline-offset: 3px;
+
+    cursor: pointer;
+}
+.cbLabel {
+    margin-left: none;
+}
+.RemembermeContainer {
+    display: flex;
+    /* background-color: green; */
+    margin-top: 5px;
+}
+.RemembermeContainer label {
+    margin-left: 5px;
+    
+}
+.RemembermeContainer input {
+    outline: none;
+    margin-left: 35px;
+    width: 20px;
+    height: 20px;
+
+}
+
+

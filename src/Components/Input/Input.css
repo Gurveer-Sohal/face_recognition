@@ -1,0 +1,56 @@
+.InputContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    
+    
+}
+
+.Input {
+    width: 60vw;
+    border: 2px solid black;
+    border-right: none;
+
+}
+.Submit{
+    outline: none;
+    border: 2px solid black;
+    color:black;
+    background-color: rgb(124, 183, 235);
+    padding: 10px;
+    width: 100px;
+
+}
+.Submit:hover {
+    cursor: pointer;
+
+}
+.image-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    border: 2px solid red;
+
+}
+
+.image-container2 {
+    border: 5px solid black;
+    justify-self: center;
+}
+img {
+    width: 400px;
+    height: auto;
+    
+
+}
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px blue inset;
+}
+
+.welcome {
+    text-align: center;
+    color: rgb(98, 98, 152);
+    
+}

@@ -1,0 +1,71 @@
+
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    border-radius:20px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgb(56,95,116);
+    background: linear-gradient(180deg, rgba(56,95,116,1) 30%, rgba(5,199,238,1) 100%);
+}
+.signupContainer h2 {
+    align-self: center;
+    color: white;
+}
+
+.centerAligned {
+    outline: none;
+    width: 80%;
+    align-self: center;
+    border-radius: 0.5px solid black ;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+
+.signupContainer label {
+    margin-left: 35px;
+    color: white;
+}
+
+.btnRegister {
+    height: 45px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.1em;
+}
+.btnRegister:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.RegisterContainer div p {
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+
+}
+.RegisterContainer div p:hover {
+    text-decoration: underline white;
+    text-underline-offset: 4px;
+}
+
+.login {
+    color: blue;
+    text-decoration: underline blue;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+

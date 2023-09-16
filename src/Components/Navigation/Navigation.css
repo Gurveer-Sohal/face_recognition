@@ -1,0 +1,16 @@
+.Nav {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.Nav img {
+    width: 100px;
+    margin-left: 20px
+}
+.Nav p {
+    margin-top: 25px;
+    margin-right: 20px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
