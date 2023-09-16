@@ -67,7 +67,9 @@ class App extends Component {
 
   // update url state when input changes
   onInputChange = (event) => this.setState({input: event.target.value});
-
+  resetUrl = () => {
+    this.setState({url: ''})
+  }
   // Submit request to Clarafi API 
   onSubmit = (event) => {
     this.setState({url: this.state.input});
@@ -108,7 +110,7 @@ class App extends Component {
   render() {
     if(this.state.route === 'login') {
       return (
-        <Login loadUser= {this.loadUser} signup={() => this.setState({route: 'signup'})} login={() => this.setState({route: 'homepage'})}/>
+        <Login resetUrl= {this.resetUrl}loadUser= {this.loadUser} signup={() => this.setState({route: 'signup'})} login={() => this.setState({route: 'homepage'})}/>
       );
     }
     else if(this.state.route === 'signup') {

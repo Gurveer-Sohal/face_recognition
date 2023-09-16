@@ -6,7 +6,7 @@ const Navigation = ({login}) => {
     return (
         <nav className='Nav'>
             <img className='logo' src={logo} alt="Logo" />
-            <p onClick={() => login()}>Sign out</p>
+            <button className='logout' onClick={() => login()} >Logout</button>
         </nav>
     );
 }
