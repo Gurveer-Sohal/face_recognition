@@ -18,7 +18,7 @@ class Signup extends React.Component {
     // POST request to submit user info
     // Response by entering user to database, returns user 
     onSubmitSignup = () => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://radiant-atoll-17458-147106ce8b79.herokuapp.com/register', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
