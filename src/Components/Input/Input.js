@@ -14,7 +14,7 @@ class Input extends React.Component {
     // PUT request to get image entered count 
     // Return image count, update imageCount state
     getImageCount = () => {
-        fetch('http://localhost:3000/images', {
+        fetch('https://radiant-atoll-17458-147106ce8b79.herokuapp.com/images', {
             method: 'PUT',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
